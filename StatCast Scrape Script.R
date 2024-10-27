@@ -17,7 +17,7 @@ crashes_join_roads <- sqldf('SELECT * FROM zombies WHERE game_date = "2021-06-07
 
 
 pw<- {
-  "Chaos22!"
+  ""
 }
 
 con <- dbConnect(RPostgres::Postgres()
